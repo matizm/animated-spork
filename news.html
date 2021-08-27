@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>News</title>
+  <link rel="stylesheet" href="assets/stylesheets/pages/news.css">
   <link rel="stylesheet" href="assets/stylesheets/main.css">
-  <link rel="stylesheet" href="assets/stylesheets/pages/about.css">
   <script src="assets/js/includeHTML.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="https://kit.fontawesome.com/30dc22d683.js" crossorigin="anonymous"></script>
@@ -14,10 +14,51 @@
 
 <body>
   <div include-html="components/navbar.html"></div>
-  <h1>Header</h1>
+  <header>
+    <h1>Stories</h1>
+  </header>
 
+  <main>
+    <article id="opener">
+      <img>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quia commodi debitis hic eius consequuntur
+        eveniet facilis consequatur mollitia, id quisquam, odit autem? Dolorem enim soluta dicta recusandae et fugit.
+      </p>
+      <h3>Title</h3>
+      <button>Read More</button>
+    </article>
 
-  Hello this is a test!
+    <article class="feature">
+      <h2>August 18th, 2021</h2>
+      <h2>5 Minute Read</h2>
+      <h3>Title</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident dolorem odit libero architecto sapiente?
+        Nobis autem magnam rerum natus pariatur earum accusamus harum. Maiores neque commodi, architecto iste iure
+        exercitationem.</p>
+      <img>
+    </article>
+
+    <article class="feature">
+      <h2>August 1st, 2021</h2>
+      <h2>6 Minute Read</h2>
+      <h3>Title</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam vitae nam omnis corrupti sunt ipsa eaque,
+        saepe perferendis voluptates quaerat iure esse repellat doloribus provident cum itaque repudiandae sapiente
+        iste.</p>
+      <img>
+    </article>
+
+    <article class="feature">
+      <h2>July 6th, 2021</h2>
+      <h2>4 Minute Read</h2>
+      <h3>Title</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam vitae nam omnis corrupti sunt ipsa eaque,
+        saepe perferendis voluptates quaerat iure esse repellat doloribus provident cum itaque repudiandae sapiente
+        iste.</p>
+      <img>
+    </article>
+
+  </main>
 </body>
 <div include-html="components/footer.html"></div>
 <script>includeHTML();</script>

@@ -1,0 +1,28 @@
+header{display:flex;
+flex-direction:column;
+width:auto;
+margin: 0 auto;
+}
+
+.descriptions{display:flex;
+    flex-direction:row;    justify-content:space-around;
+    width:auto;
+margin-bottom:2em;
+}
+
+.plans{width:30%;
+text-align:center;}
+
+img{width:auto;
+padding:2em;}
+
+h1, .fitem{width:100%;
+text-align: center;
+margin-bottom:1em;}
+
+textarea{width:60%;
+height:40%;}
+
+
+button{padding:1em;
+}
