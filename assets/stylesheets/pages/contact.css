@@ -1,0 +1,34 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 250px;
+}
+
+form .item-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+form .label-container {
+  width: 82px;
+  text-align: right;
+}
+
+input[type="submit"] {
+  width: 100px;
+  float: right;
+}
+
+form label {
+  width: 100%;
+  margin-right: 10px;
+}
+
+input[type="textarea"] {
+  width: 168px;
+}
