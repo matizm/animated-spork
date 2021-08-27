@@ -1,0 +1,13 @@
+header{display:flex;
+    width:auto;
+margin-top:2em;
+justify-content:center;}
+
+h1{text-transform: uppercase;}
+
+#opener{display:flex;
+    flex-direction:column;
+width:100%;
+justify-items:center;}
+
+p, h3{text-align:center;}
