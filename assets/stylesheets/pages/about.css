@@ -8,4 +8,6 @@ img {display: block;
   margin-right: auto;
   width: 50%;}  
   .flex-container {display: flex; flex-direction:row; justify-content: space-around;}
-  .list {display: flex; justify-content: space-evenly;}
+  .doctors .list {display: flex; justify-content: space-evenly;}
+  .list {margin-right: 40%;}
+  li {font-weight: bold;}
