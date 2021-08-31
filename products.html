@@ -1,20 +1,77 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Products</title>
   <link rel="stylesheet" href="assets/stylesheets/main.css">
-  <link rel="stylesheet" href="assets/stylesheets/pages/about.css">
+  <link rel="stylesheet" href="assets/stylesheets/pages/products.css">
+  <!--Logo Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Righteous&display=swap" rel="stylesheet">
   <script src="assets/js/includeHTML.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="https://kit.fontawesome.com/30dc22d683.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
   <div include-html="components/navbar.html"></div>
-  <h1>Header</h1>
-  <div include-html="components/footer.html"></div>
-<script>includeHTML();</script>
+  <header>
+    <img src="assets/images/portions.jpg">
+    <h1>Weekly Plans</h1>
+  </header>
+  <section class="descriptions">
+    <div class="plans">
+      <h2>Six Preps</h2>
+      <p>Three days with two meals for one to two people.</p>
+    </div>
+    <div class="plans">
+      <h2>Twelve Preps</h2>
+      <p>Six days with two meals for one to two people.</p>
+    </div>
+    <div class="plans">
+      <h2>Family</h2>
+      <p>Five days with two meals for a family of four.</p>
+    </div>
+
+  </section>
+
+  <form>
+    <div class="fitem">
+      <select>
+        <option value="6meals">6 Meals Per Week</option>
+        <option value="12meals">12 Meals Per Week</option>
+        <option value="family">Family Style</option>
+
+      </select>
+    </div>
+
+    <div class="fitem">
+      <label for="symptoms">Description of health goals and treatments:</label>
+      <p><textarea
+          id="sypmtoms">I was discharged two weeks ago after my first cardiac surgery. My doctor recommended a Mediterannean diet...</textarea>
+      </p>
+    </div>
+
+    <div class="fitem">
+      <label for="fname">Ok to Text</label>
+      <input type="checkbox" id="text" name="textok">
+
+      <label for="gift">This is a gift</label>
+      <input type="checkbox" id="gift" name="gift">
+    </div>
+    <div class="fitem">
+      <button>Add to Cart</button>
+    </div>
+  </form>
+
+
+
+
 </body>
+<div include-html="components/footer.html"></div>
+<script>includeHTML();</script>
 
 </html>
