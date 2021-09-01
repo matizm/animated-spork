@@ -1,11 +1,21 @@
+:root {
+  --sunburst: #e7717D;
+  --grey: #c2cad0;
+  --tan: #c2b9b0;
+  --brown: #7e685a;
+  --green: #afd275;
+  --orange: #fab691;
+  --white: #f4f5f7;
+}
+
 nav {
   position:fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 30px;
-  background-color: rgb(195 181 244);
-  border-bottom:2px solid rgba(146 18 226 / 20%);
+  height: 40px;
+  background-color: var(--sunburst);
+  border-bottom:2px solid var(--green);
 }
 
 nav ul {
@@ -25,18 +35,22 @@ nav ul > li {
 
 nav ul li > a {
   text-decoration: none;
-  color: rgb(225 194 241);
+  color: var(--brown);
   font-size: 18px;
   padding: 10px 35px;
+}
+
+.fas.fa-bars {
+  color: var(--green);
 }
 
 .dropdown{
   display: block;
   float: right;
-  padding-top: 2px;
-  padding-right: 15px;
+  padding-top: 5px;
+  padding-right: 10%;
   margin-right: 15px;
-  font-size: 26px;
+  font-size: 28px;
 }
 
 .dropdown-content {
@@ -46,10 +60,10 @@ nav ul li > a {
   width: 140px;
   right: 0px;
   padding: 12px 16px;
-  margin-right: 16px;
-  background-color: rgb(51 0 78);
-  box-shadow: 0px 8px 16px 0px rgb(71 3 93 / 80%);
-  border-radius:8px;
+  margin-right: 10%;
+  background-color: var(--orange);
+  box-shadow: 0px 8px 16px 0px var(--sunburst);
+  border-radius: 8px;
   z-index: 1;
   overflow: auto;
 }
@@ -60,7 +74,7 @@ nav ul li > a {
 }
 
 .dropdown-content a:hover {
-  color:hsl(318, 90%, 28%);
+  color: var(--sunburst);
   font-size: 1.1em;
   font-weight: bold;
 }
