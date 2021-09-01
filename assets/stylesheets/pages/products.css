@@ -3,29 +3,53 @@ header{display:flex;
     width:auto;
     margin: 0 auto;
     }
-    
-    .descriptions{display:flex;
+
+.descriptions{display:flex;
         flex-direction:row;    justify-content:space-around;
         width:auto;
     margin-bottom:2em;
     }
     
-    .plans{width:30%;
+.plans{width:30%;
     text-align:center;}
     
-    img{width:auto;
+img{width:auto;
     padding:2em;}
     
-    h1, .fitem{font-family: 'Righteous', cursive;
+h1{font-family: 'Righteous', cursive;
+    color:#AFD275;
+    width:100%;
+    text-align: center;
+    margin-bottom:1em;
+}
+
+h2, .fitem{font-family: 'Righteous', cursive;
+    color: #E7717D;
         width:100%;
     text-align: center;
     margin-bottom:1em;}
+
+p{color: #C2B9B0;
+font-family:'Open Sans', sans-serif;}
+
+#drop{background-color:#AFD275;
+    color:white;
+    border:2px solid #C2B9B0;
+    border-radius:10px;
+padding: 1em 2em;
+margin-bottom: 2em;}
     
-    textarea{width:60%;
+textarea{width:60%;
     height:40%;}
     
     
-    button{padding:1em;
+button{    background-color:#AFD275;
+    color:white;
+    padding: 1em;
+    margin-bottom:6em;
+    border:2px solid #C2B9B0;
+    border-radius:10px;
+
     }
 
     #E7717D
