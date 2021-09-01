@@ -3,7 +3,10 @@ header{display:flex;
 margin-top:2em;
 justify-content:center;}
 
-h1{text-transform: uppercase;}
+h1{font-family:'Righteous';
+    text-transform: uppercase;}
+
+h2, h3, p{font-family:'Open Sans', sans-serif;}
 
 #opener{display:flex;
     flex-direction:column;
@@ -11,3 +14,5 @@ width:100%;
 justify-items:center;}
 
 p, h3{text-align:center;}
+
+#last{margin-bottom:6em;}
