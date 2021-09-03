@@ -2,11 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
-  top: calc(50% + 10px);
-  left: calc(50% - 240px);
-  transform: translateY(calc(-40px - 50%));
-  max-height: calc(100% - 290px);
 }
 
 form {
