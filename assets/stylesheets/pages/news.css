@@ -1,3 +1,4 @@
+
 header{display:flex;
     width:auto;
 margin-top:2em;
@@ -6,13 +7,26 @@ justify-content:center;}
 h1{font-family:'Righteous';
     text-transform: uppercase;}
 
-h2, h3, p{font-family:'Open Sans', sans-serif;}
+main{display:flex;
 
-#opener{display:flex;
-    flex-direction:column;
-width:100%;
-justify-items:center;}
+    flex-wrap:wrap;
+}
 
-p, h3{text-align:center;}
+.feature{padding: 0 1em;
+min-width: 175px;}
+
+.feature a{text-decoration:none;
+    color:#fab691;
+}
+
+.feature a:hover{color:#afd275;}
+
+h2, h3, p{font-family:'Open Sans', sans-serif;
+    text-align:center;
+}
+
+
+
+article p, h3{color:#c2cad0;}
 
 #last{margin-bottom:6em;}
