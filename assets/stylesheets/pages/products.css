@@ -7,17 +7,26 @@ header{display:flex;
     }
 
 .plans{display:flex;
+    flex-wrap:wrap;
         flex-direction:row;  
         justify-content:space-around;
         width:auto;
         margin-bottom:2em;
     }
     
-.descrip{width:30%;
+/*.descrip{width:30%;
     text-align:center;
-    border: 4px solid #C2B9B0;}
+    background-color:white;}*/
 
-p{  
+.descrip{background-color:white;
+    padding: 0 1em;
+    margin-right:1em;
+    margin-left:1em;
+    margin-bottom:2em;
+min-width: 175px;
+max-width: 300px;}
+
+p{ text-align:center;
 padding-right: .5em;
 padding-left:.5em;}
     
