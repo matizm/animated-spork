@@ -1,17 +1,34 @@
+body{width:auto;}
+
 header{display:flex;
     flex-direction:column;
     width:auto;
     margin: 0 auto;
     }
 
-.descriptions{display:flex;
-        flex-direction:row;    justify-content:space-around;
+.plans{display:flex;
+    flex-wrap:wrap;
+        flex-direction:row;  
+        justify-content:space-around;
         width:auto;
-    margin-bottom:2em;
+        margin-bottom:2em;
     }
     
-.plans{width:30%;
-    text-align:center;}
+/*.descrip{width:30%;
+    text-align:center;
+    background-color:white;}*/
+
+.descrip{background-color:white;
+    padding: 0 1em;
+    margin-right:1em;
+    margin-left:1em;
+    margin-bottom:2em;
+min-width: 175px;
+max-width: 300px;}
+
+p{ text-align:center;
+padding-right: .5em;
+padding-left:.5em;}
     
 img{width:auto;
     padding:2em;}
@@ -29,6 +46,8 @@ h2, .fitem{font-family: 'Righteous', cursive;
     text-align: center;
     margin-bottom:1em;}
 
+{border: 2px solid #afd275;}
+
 p{color: #C2B9B0;
 font-family:'Open Sans', sans-serif;}
 
@@ -43,14 +62,14 @@ textarea{width:60%;
     height:40%;}
     
     
-button{    background-color:#AFD275;
+button{background-color:#AFD275;
     color:white;
     padding: 1em;
     margin-bottom:6em;
-    border:2px solid #C2B9B0;
-    border-radius:10px;
+    border:2px solid #c2cad0;
+    border-radius:10px;}
 
-    }
+button:hover, #drop:hover{background-color:#fab691;}
 
     #E7717D
     #C2CAD0

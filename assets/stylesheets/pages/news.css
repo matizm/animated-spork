@@ -1,18 +1,37 @@
+
 header{display:flex;
     width:auto;
 margin-top:2em;
 justify-content:center;}
 
 h1{font-family:'Righteous';
-    text-transform: uppercase;}
+    text-transform: uppercase;
+padding-top: 1em;}
 
-h2, h3, p{font-family:'Open Sans', sans-serif;}
+main{display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
 
-#opener{display:flex;
-    flex-direction:column;
-width:100%;
-justify-items:center;}
+.feature{background-color:white;
+    padding: 0 1em;
+    margin-right:1em;
+    margin-left:1em;
+    margin-bottom:2em;
+min-width: 175px;
+max-width: 300px;}
 
-p, h3{text-align:center;}
+.feature a{text-decoration:none;
+    color:#fab691;
+}
 
-#last{margin-bottom:6em;}
+.feature a:hover{color:#afd275;}
+
+h2, h3, p{font-family:'Open Sans', sans-serif;
+    text-align:center;
+}
+
+article p, h3{color:#c2cad0;}
+
+p{padding-bottom:1em;}
+
