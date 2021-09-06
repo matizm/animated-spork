@@ -15,10 +15,6 @@ html {
   background-color: var(--white);
 }
 
-p {
-  color: var(--sunburst);
-}
-
 .content {
   padding-top: 28px;
   padding-bottom: 80px;
@@ -28,4 +24,6 @@ h1 {
   margin-top: 30px;
   text-align: center;
   color: var(--green);
+  font-family: 'Righteous', cursive;
+  text-transform: uppercase;
 }

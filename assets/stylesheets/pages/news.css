@@ -5,12 +5,6 @@
   justify-content: center;
 }
 
-.news h1 {
-  font-family: 'Righteous';
-  text-transform: uppercase;
-  padding-top: 1em;
-}
-
 .news main {
   display: flex;
   flex-wrap: wrap;
