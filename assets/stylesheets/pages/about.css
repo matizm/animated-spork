@@ -3,6 +3,9 @@
   font-weight: bold;
 }
 
+h2 { font-family: 'Righteous', cursive;
+  color: #E7717D;}
+
 .about img {
   display: block;
   margin-left: auto;
@@ -31,5 +34,5 @@
 }
 
 .about p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;  color: #C2B9B0;
 }
