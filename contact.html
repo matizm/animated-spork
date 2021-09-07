@@ -6,16 +6,19 @@
   <title>Contact Us</title>
   <link rel="stylesheet" href="assets/stylesheets/main.css">
   <link rel="stylesheet" href="assets/stylesheets/pages/contact.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Righteous&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/30dc22d683.js" crossorigin="anonymous"></script>
   <script src="assets/js/includeHTML.js"></script>
   <script src="assets/js/main.js"></script>
-  <script src="https://kit.fontawesome.com/30dc22d683.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <div include-html="components/navbar.html"></div>
-  <div class="content">
+  <div class="content contact">
     <h1>Contact Us</h1>
     <div class="form-container">
-      <form>
+      <form onsubmit="submitForm(this)">
         <div class="item-container">
           <div class="label-container">
             <label for="fname">First Name</label>
@@ -38,8 +41,6 @@
         </div>
         <br>
         <div class="item-container">
-          <div class="label-container">
-          </div>
           <label for="message">Let us know how we can help you.</label>
           <textarea name="message" rows="10" cols="30"></textarea>
         </div>
