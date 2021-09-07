@@ -1,13 +1,15 @@
 .form-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-form {
-  width: 33.333%
+.contact form {
+  width: 75%;
+  max-width: 535px;
 }
 
-form .item-container {
+.contact form .item-container {
   display: flex;
   flex-flow: row wrap;
   align-items: baseline;
@@ -15,17 +17,17 @@ form .item-container {
   width: 100%;
 }
 
-form .label-container {
-  min-width: 82px;
+.contact form .label-container {
+  width: 82px;
   text-align: right;
 }
 
-form label {
+.contact form label {
   color: var(--brown);
   margin-right: 10px;
 }
 
-input, textarea {
+.contact input, .contact textarea {
   box-sizing: border-box;
   border: 1px solid var(--tan);
   border-radius: 4px;
@@ -34,18 +36,23 @@ input, textarea {
   color: var(--sunburst);
 }
 
-textarea {
+.contact textarea {
   padding: 5px;
   width: 100%;
   resize: none;
 }
 
-input[type="submit"] {
+.contact input[type=text], .contact input[type=email] {
+  padding: 5px;
+  width: calc(100% - 82px);
+}
+
+.contact input[type="submit"] {
   width: 100px;
   float: right;
 }
 
-input[type=submit] {
+.contact input[type=submit] {
   border: 1px solid var(--sunburst);
   background-color: var(--green);
   color: var(--sunburst);
@@ -55,12 +62,12 @@ input[type=submit] {
   margin-top: -5px;
 }
 
-input[type=text]:focus,
-input[type=email]:focus,
-textarea:focus {
+.contact input[type=text]:focus,
+.contact input[type=email]:focus,
+.contact textarea:focus {
   border: 1px solid var(--green);
 }
 
-input[type=submit]:hover {
+.contact input[type=submit]:hover {
   border: 2px solid var(--sunburst);
 }
