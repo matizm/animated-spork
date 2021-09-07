@@ -18,62 +18,63 @@
 <body>
   <div include-html="components/navbar.html"></div>
   <div class="content products">
-  <h1>Products</h1>
-  <header>
-    <img src="assets/images/portions.jpg">
-  </header>
-  <h1>Weekly Plans</h1>
-  <section class="plans">
-    <div class="descrip">
-      <h2>Six Preps</h2>
-      <p>Three days with two meals for one to two people.</p>
-    </div>
-    <div class="descrip">
-      <h2>Twelve Preps</h2>
-      <p>Six days with two meals for one to two people.</p>
-    </div>
-    <div class="descrip">
-      <h2>Family</h2>
-      <p>Five days with two meals for a family of four.</p>
-    </div>
+    <h1>Products</h1>
+    <header>
+      <img src="assets/images/portions.jpg">
+    </header>
+    <h1>Weekly Plans</h1>
+    <section class="plans">
+      <div class="descrip">
+        <h2>Six Preps</h2>
+        <p>Three days with two meals for one to two people.</p>
+      </div>
+      <div class="descrip">
+        <h2>Twelve Preps</h2>
+        <p>Six days with two meals for one to two people.</p>
+      </div>
+      <div class="descrip">
+        <h2>Family</h2>
+        <p>Five days with two meals for a family of four.</p>
+      </div>
 
-  </section>
+    </section>
 
-  <form>
-    <div class="fitem">
-      <select id="drop">
-        <option value="6meals">6 Meals Per Week</option>
-        <option value="12meals">12 Meals Per Week</option>
-        <option value="family">Family Style</option>
+    <form>
+      <div class="fitem">
+        <select id="drop">
+          <option value="6meals">6 Meals Per Week</option>
+          <option value="12meals">12 Meals Per Week</option>
+          <option value="family">Family Style</option>
 
-      </select>
-    </div>
+        </select>
+      </div>
 
-    <div class="fitem">
-      <label for="symptoms">
-        <h2>Description of health goals and treatments:</h2>
-      </label>
-      <p><textarea
-          id="sypmtoms">I was discharged two weeks ago after my first cardiac surgery. My doctor recommended a Mediterannean diet...</textarea>
-      </p>
-    </div>
+      <div class="fitem">
+        <label for="symptoms">
+          <h2>Description of health goals and treatments:</h2>
+        </label>
+        <p><textarea
+            id="sypmtoms">I was discharged two weeks ago after my first cardiac surgery. My doctor recommended a Mediterannean diet...</textarea>
+        </p>
+      </div>
 
-    <div class="fitem">
-      <label for="fname">Ok to Text</label>
-      <input type="checkbox" id="text" name="textok">
+      <div class="fitem">
+        <label for="fname">Ok to Text</label>
+        <input type="checkbox" id="text" name="textok">
 
-      <label for="gift">This is a gift</label>
-      <input type="checkbox" id="gift" name="gift">
-    </div>
-    <div class="fitem">
-      <button>Add to Cart</button>
-    </div>
-  </form>
+        <label for="gift">This is a gift</label>
+        <input type="checkbox" id="gift" name="gift">
+      </div>
+      <div class="fitem">
+        <button>Add to Cart</button>
+      </div>
+    </form>
 
 
 
-</div>
-<div include-html="components/footer.html"></div>
-<script>includeHTML();</script>
+  </div>
+  <div include-html="components/footer.html"></div>
+  <script>includeHTML();</script>
 </body>
+
 </html>
