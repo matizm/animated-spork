@@ -19,7 +19,7 @@
 }
 
 .descrip {
-  background-color: white;
+  background-color: var(--white);
   padding: 0 1em;
   margin-right: 1em;
   margin-left: 1em;
@@ -41,21 +41,21 @@
 
 .products h2, .fitem {
   font-family: 'Righteous', cursive;
-  color: #E7717D;
+  color: var(--sunburst);
   width: 100%;
   text-align: center;
   margin-bottom: 1em;
 }
 
 .products p {
-  color: #C2B9B0;
+  color: var(--grey);
   font-family: 'Open Sans', sans-serif;
 }
 
 #drop {
-  background-color: #AFD275;
+  background-color: var(--green);
   color: white;
-  border: 2px solid #C2B9B0;
+  border: 2px solid var(--grey);
   border-radius: 10px;
   padding: 1em 2em;
   margin-bottom: 2em;
@@ -67,14 +67,14 @@
 }
 
 .products button {
-  background-color: #AFD275;
-  color: white;
+  background-color: var(--green);
+  color: var(--white);
   padding: 1em;
   margin-bottom: 6em;
-  border: 2px solid #c2cad0;
+  border: 2px solid var(--grey);
   border-radius: 10px;
 }
 
 .products button:hover, #drop:hover {
-  background-color: #fab691;
+  background-color: var(--orange);
 }

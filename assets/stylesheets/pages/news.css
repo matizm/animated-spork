@@ -5,7 +5,7 @@
 }
 
 .feature {
-  background-color: white;
+  background-color: var(--white);
   padding: 0 1em;
   margin-right: 1em;
   margin-left: 1em;
@@ -16,11 +16,11 @@
 
 .feature a {
   text-decoration: none;
-  color: #fab691;
+  color: var(--orange);
 }
 
 .feature a:hover {
-  color: #afd275;
+  color: var(--green);
 }
 
 .news h2, .news h3, .news p {
@@ -29,7 +29,7 @@
 }
 
 .news article p, .news h3 {
-  color: #c2cad0;
+  color: var(--grey);
 }
 
 .news p {
