@@ -16,8 +16,8 @@ html {
 }
 
 .content {
-  padding-top: 28px;
-  padding-bottom: 80px;
+  padding-top: 4em;
+  padding-bottom: 1em;
 }
 
 h1 {
@@ -27,3 +27,31 @@ h1 {
   font-family: 'Righteous', cursive;
   text-transform: uppercase;
 }
+
+main{display:flex; 
+  flex:wrap; 
+  justify-content:space-between;
+
+}
+
+section{width:40%;
+  min-width: 300px;
+  text-align:center;
+  align-content:center;
+  margin-bottom:7em;
+}
+
+section img, section #text{max-width:300px;
+max-height:450px;
+
+}
+
+#text{align-self:center;
+  font-family: 'Open Sans', cursive;
+color: var(--orange);}
+
+#first{text-align:left;
+padding-left:1em;}
+
+#second{text-align:right;
+padding-right:2em;}
