@@ -27,6 +27,8 @@ h2 { font-family: 'Righteous', cursive;
 .list {
   margin-right: 40%;
   font-style: italic;
+  font-family: 'Righteous', cursive;
+
 }
 
 .about li {
