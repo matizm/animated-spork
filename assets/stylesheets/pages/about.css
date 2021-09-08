@@ -1,4 +1,5 @@
-#startingp {text-indent: 25px;}
+
+#startingp {text-indent: 25px;} 
 #disclaimer {
   font-weight: bold;
 }
@@ -32,9 +33,9 @@ h2 { font-family: 'Righteous', cursive;
 }
 
 .about li {
-  font-weight: bold;
-}
+  font-weight: bold;}
 
 .about p {
-  font-family: 'Open Sans', sans-serif;  color: #C2B9B0;
-}
+  font-family: 'Open Sans', sans-serif;  color: #C2B9B0;}
+  #lastp {margin-bottom: 5%;}
+
