@@ -1,11 +1,11 @@
-
+body {padding-left: 5%; padding-right: 5%;}
 #startingp {text-indent: 25px;} 
 #disclaimer {
   font-weight: bold;
 }
 
 h2 { font-family: 'Righteous', cursive;
-  color: #E7717D;}
+  color: #918586;}
 
 .about img {
   display: block;
