@@ -41,14 +41,15 @@ section{width:40%;
   margin-bottom:7em;
 }
 
-section img, section #text{max-width:300px;
+section img, section #text{max-width:400px;
 max-height:450px;
 
 }
 
 #text{align-self:center;
   font-family: 'Open Sans', cursive;
-color: var(--orange);}
+color: var(--orange);
+max-width:400px;}
 
 #first{text-align:left;
 padding-left:1em;}
